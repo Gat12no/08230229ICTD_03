@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Lab 03</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <div class="logo">🌟 MyPortfolio</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="about" class="hero">
+    <img src="profile.PNG" alt="Tshering Gatsho" class="profile-pic">
+    <h1>Tshering Gatsho Norbu</h1>
+    <p class="tagline">B.Ed in ICT | Aspiring ICT Specialist</p>
+    <p class="intro">
+      I am passionate about technology, teaching, and exploring cybersecurity. 
+      This portfolio showcases my education, skills, and projects.
+    </p>
+    <button id="theme-btn">Change Theme 🌙</button>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>🎓 Education</h2>
+    <div class="card">
+      <p>Bachelor of Education in ICT – Samtse College of Education</p>
+      <p>Graduation Year: 2027</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>💻 Skills</h2>
+    <ul class="skills-list">
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python & SQL</li>
+      <li>Cybersecurity Basics</li>
+      <li>Teamwork & Communication</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>🚀 Projects</h2>
+    <div class="card">
+      <h3>Student Database System</h3>
+      <p>A web app for managing student details using SQL & PHP.</p>
+    </div>
+    <div class="card">
+      <h3>Hostel Management System</h3>
+      <p>Helps allocate rooms, track attendance, and manage hostel resources.</p>
+    </div>
+    <ul id="project-list"></ul>
+    <button id="add-project-btn">Add New Project</button>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>📩 Contact Me</h2>
+    <p>Email: <a href="mailto:gatsho4life@email.com">gatsho4life@email.com</a></p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Tshering Gatsho Norbu | Built with ❤️</p>
+  </footer>
+
+  <!-- Link JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
